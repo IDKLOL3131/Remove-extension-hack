@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.extension {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.extension-info h2 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.extension-info p {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.status {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.enabled {
+  color: green;
+}
+
+.disabled {
+  color: #888;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 9px 15px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
